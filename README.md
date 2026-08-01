@@ -59,6 +59,25 @@ HTTP request sent, awaiting response... 404 Not Found
 2026-08-02 02:08:55 ERROR 404: Not Found.
 
 
+Changing Permissions
+--------------------
+Created a file named "secure.txt" using touch command and changed the permissions 
+4 (Owner): Read (r--)
+4 (Group): Read (r--)
+4 (Others): Read (r--)
+
+rohan-bhowmik@rohan-bhowmik-VMware-Virtual-Platform:~/Documents/Linux_Assignment_Tutedude$ chmod 444 secure.txt
+
+rohan-bhowmik@rohan-bhowmik-VMware-Virtual-Platform:~/Documents/Linux_Assignment_Tutedude$ ls -al
+total 28
+drwxrwxr-x 5 rohan-bhowmik rohan-bhowmik 4096 Aug  2 02:12 .
+drwxr-xr-x 5 rohan-bhowmik rohan-bhowmik 4096 Aug  2 01:41 ..
+drwxrwxr-x 8 rohan-bhowmik rohan-bhowmik 4096 Aug  2 02:10 .git
+-rw-rw-r-- 1 rohan-bhowmik rohan-bhowmik 3000 Aug  2 02:10 README.md
+-r--r--r-- 1 rohan-bhowmik rohan-bhowmik    0 Aug  2 02:12 secure.txt
+drwxrwxr-x 2 rohan-bhowmik rohan-bhowmik 4096 Aug  2 01:47 test_dir
+-rw-rw-r-- 1 rohan-bhowmik rohan-bhowmik  352 Aug  2 02:02 test_dir.zip
+drwxrwxr-x 3 rohan-bhowmik rohan-bhowmik 4096 Aug  2 02:04 unzipped_dir
 
 
 
