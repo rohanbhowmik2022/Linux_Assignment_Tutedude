@@ -49,5 +49,17 @@ rohan-bhowmik@rohan-bhowmik-VMware-Virtual-Platform:~/Documents/Linux_Assignment
 README.md  test_dir  test_dir.zip  unzipped_dir
 rohan-bhowmik@rohan-bhowmik-VMware-Virtual-Platform:~/Documents/Linux_Assignment_Tutedude$ 
 
+Downloading files
+-------------------
+rohan-bhowmik@rohan-bhowmik-VMware-Virtual-Platform:~/Documents/Linux_Assignment_Tutedude$ wget https://example.com/sample.txt
+--2026-08-02 02:08:54--  https://example.com/sample.txt
+Resolving example.com (example.com)... 2606:4700:9a95:72db:f2ef:694:ef6b:ff98, 104.20.23.154, 172.66.147.243
+Connecting to example.com (example.com)|2606:4700:9a95:72db:f2ef:694:ef6b:ff98|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2026-08-02 02:08:55 ERROR 404: Not Found.
+
+
+
+
 
 
