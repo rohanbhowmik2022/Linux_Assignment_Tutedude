@@ -19,6 +19,13 @@ rohan-bhowmik:x:1000:1000:Rohan Bhowmik:/home/rohan-bhowmik:/bin/bash
 sshd:x:122:65534::/run/sshd:/usr/sbin/nologin
 
 
+Searching patterns
+----------------------
+rohan-bhowmik@rohan-bhowmik-VMware-Virtual-Platform:~/Documents/Linux_Assignment_Tutedude/test_dir$ cat /etc/passwd | grep root
+root:x:0:0:root:/root:/bin/bash
+nm-openvpn:x:121:122:NetworkManager OpenVPN,,,:/var/lib/openvpn/chroot:/usr/sbin/nologin
+
+
 
 
 
